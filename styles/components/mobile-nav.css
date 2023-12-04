@@ -28,6 +28,7 @@ mobile__resume */
     justify-content: center;
     gap: 2rem;
     list-style: none;
+    padding: 0;
 }
 
 
