@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+  <title>Subarna Sigdel | Dev Server</title>
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li><a href="#about" class="header__links">About</a></li>
+        <li><a href="#featured" class="header__links">Work</a></li>
+        <li><a href="#contact" class="header__links">Contact</a></li>
+        <li class="header__line"></li>
+        <li>
+          <button id="theme-toggle" class="header__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+
+
+          </button>
+        </li>
+        <li><a href="" class="header__resume btn">Resume</a></li>
+      </ul>
+      <button class="header__bars"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+          class="w-6 h-6">
+          <path fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd" />
+        </svg></button>
+    </nav>
+  </header>
+
+  <!-- Mobile Nav -->
+
+  <div class="mobile-nav">
+    <nav>
+      <ul class="mobile-nav__menu">
+        <li><a href="#about" class="mobile-nav__link">About</a></li>
+        <li><a href="#work" class="mobile-nav__link">Work</a></li>
+        <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
+        <li class="mobile-nav__link-line"></li>
+        <li>
+          <button id="theme-toggle" class="mobile-nav__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+        <li><a href="" class="mobile-nav__btn btn">Resume</a></li>
+
+      </ul>
+    </nav>
+  </div>
+
+  <!-- End Mobile Nav -->
+  <main>
+
+
+    <section class="hero container">
+      <img src="images/hero__logo2.jpg" alt="Profile Picture" class="hero__img">
+      <h2 class="hero__subtitle">Hi, I'm Subarna 👋</h2>
+      <h1 class="hero__title">FRONT-END <br> WEB DEVELOPER</h1>
+      <p class="hero__description">A passionate <strong>Frontend</strong> web developer and <strong>UI/UX</strong>
+        enthusiast specialized
+        in building stunning pixel-perfect <strong>interactive</strong> websites and applications.</p>
+      <a href="#" class="hero__button btn">Reach Out</a>
+    </section>
+
+
+    <section id="about" class="about container section">
+      <div class="about__content">
+        <h2 class="about__title">About</h2>
+        <p class="about__description">Hello there! I'm Subarna, a <strong>Frontend</strong> web developer based near
+          Sydney. I believe in
+          starting my day by tackling the challenging tasks head-on, setting the tone for a productive day ahead. What
+          gets me out of bed every morning? The excitement of bringing ideas to life on the vast canvas of the web.</p>
+
+        <p class="about__description">People who know me say I'm a bit obsessed, and honestly, they're not wrong. I'm
+          fueled by a relentless drive
+          and an insatiable curiosity to learn new things.</p>
+        <p class="about__description">Recently, I set a personal challenge to read a book every
+          day, exposing myself to diverse fields and ideas.
+          If you're someone who shares a passion for continuous learning and building things that make a difference, I'd
+          love to connect. <a>Let's chat!</a></p>
+        <hr class="about__hr">
+        <h3 class="about__subtitle">Technologies</h3>
+        <div class="about__skills-container">
+          <ul class="about__skills">
+            <li class="about__list">JavaScript (ES6+) </li>
+            <li class="about__list">CSS</li>
+            <li class="about__list">HTML</li>
+          </ul>
+          <ul class="about__skills">
+            <li class="about__list">ReactJS</li>
+            <li class="about__list">NextJS</li>
+            <li class="about__list">TailwindCSS</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about__img-container">
+        <img src="images/hero__about.jpg" alt="Profile Pic" class="about__img lazy-loading">
+      </div>
+    </section>
+
+    <section id="featured" class="featured container section">
+      <h3 class="featured__subtitle">Featured Project</h3>
+      <div class="featured__wrapper">
+        <h2 class="featured__title">SELF IMPROVO</h2>
+        <a href="#" class="featured__link"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+          </svg></a>
+      </div>
+
+      <p class="featured__description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolor laborum fuga provident possimus
+        laudantium
+        necessitatibus, nam non nesciunt quam.
+      </p>
+
+      <div class="featured__img-container">
+        <div class="featured__img-wrapper">
+          <img class="lazy-loading" src="/images/SI2.png" alt="">
+        </div>
+        <div class="featured__img-wrapper">
+          <img class="lazy-loading" src="/images/SI3.png" alt="">
+        </div>
+        <div class="featured__img-wrapper">
+          <img class="lazy-loading" src="/images/SI4.png" alt="">
+        </div>
+        <div class="featured__img-wrapper">
+          <img class="lazy-loading" src="/images/SI5.png" alt="">
+        </div>
+        <div class="featured__img-wrapper">
+          <img class="lazy-loading" src="/images/SI6.png" alt="">
+        </div>
+        <div class="featured__img-wrapper">
+          <img class="lazy-loading" src="/images/SI7.png" alt="">
+        </div>
+      </div>
+
+
+    </section>
+    <section class="projects container section">
+
+      <div>
+        <h2 class="projects__title">
+          Projects
+        </h2>
+        <p class="projects__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, repudiandae in
+          porro accusantium iste error harum autem impedit deleniti illum!</p>
+      </div>
+
+
+      <div class="projects__container">
+        <!-- Project 1 -->
+        <div class="projects__wrapper">
+          <h3 class="projects__wrapper__title">Tindog</h3>
+          <div class="projects__img image1">
+            <img class="lazy-loading" src="images/P1.png" alt="Tindog Project">
+          </div>
+          <div class="projects__info content1">
+            <h3 class="projects__info__subtitle">Tindog</h3>
+
+            <p class="projects__info__description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+              explicabo ad, hic blanditiis impedit
+              alias.</p>
+            <p class="projects__info__description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+              odit mollitia autem cupiditate ab
+              officia voluptates, quasi earum! Id, cupiditate! Voluptas eius sit dolore reprehenderit.</p>
+            <a href="#" class="btn projects__btn">Website</a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="projects__wrapper">
+          <h3 class="projects__wrapper__title">Mondrian</h3>
+          <div class="projects__img image2">
+            <img class="lazy-loading" src="images/P2.png" alt="Mondrian Project">
+          </div>
+          <div class="projects__info content2">
+            <h3 class="projects__info__subtitle">Mondrian</h3>
+
+            <p class="projects__info__description1">Inspired by ... art. This artwork is recreated using only grid
+              layout. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+              explicabo ad, hic blanditiis impedit
+              alias.</p>
+            <p class="projects__info__description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+              odit mollitia autem cupiditate ab
+              officia voluptates, quasi earum! Id, cupiditate! Voluptas eius sit dolore reprehenderit.</p>
+            <a href="#" class="btn projects__btn">Website</a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="projects__wrapper">
+          <h3 class="projects__wrapper__title">Mondrian</h3>
+          <div class="projects__img image3">
+            <img class="lazy-loading" src="images/P2.png" alt="Mondrian Project">
+          </div>
+          <div class="projects__info content3">
+            <h3 class="projects__info__subtitle">Mondrian</h3>
+
+            <p class="projects__info__description1">Inspired by ... art. This artwork is recreated using only grid
+              layout. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+              explicabo ad, hic blanditiis impedit
+              alias.</p>
+            <p class="projects__info__description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+              odit mollitia autem cupiditate ab
+              officia voluptates, quasi earum! Id, cupiditate! Voluptas eius sit dolore reprehenderit.</p>
+            <a href="#" class="btn projects__btn">Website</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="projects__wrapper">
+          <h3 class="projects__wrapper__title">Mondrian</h3>
+          <div class="projects__img image4">
+            <img class="lazy-loading" src="images/P2.png" alt="Mondrian Project">
+          </div>
+          <div class="projects__info content4">
+            <h3 class="projects__info__subtitle">Mondrian</h3>
+
+            <p class="projects__info__description1">Inspired by ... art. This artwork is recreated using only grid
+              layout. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+              explicabo ad, hic blanditiis impedit
+              alias.</p>
+            <p class="projects__info__description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+              odit mollitia autem cupiditate ab
+              officia voluptates, quasi earum! Id, cupiditate! Voluptas eius sit dolore reprehenderit.</p>
+            <a href="#" class="btn projects__btn">Website</a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="projects__wrapper">
+          <h3 class="projects__wrapper__title">Mondrian</h3>
+          <div class="projects__img image5">
+            <img class="lazy-loading" src="images/P2.png" alt="Mondrian Project">
+          </div>
+          <div class="projects__info content5">
+            <h3 class="projects__info__subtitle">Mondrian</h3>
+
+            <p class="projects__info__description1">Inspired by ... art. This artwork is recreated using only grid
+              layout. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+              explicabo ad, hic blanditiis impedit
+              alias.</p>
+            <p class="projects__info__description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+              odit mollitia autem cupiditate ab
+              officia voluptates, quasi earum! Id, cupiditate! Voluptas eius sit dolore reprehenderit.</p>
+            <a href="#" class="btn projects__btn">Website</a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="projects__wrapper">
+          <h3 class="projects__wrapper__title">Mondrian</h3>
+          <div class="projects__img image6">
+            <img class="lazy-loading" src="images/P2.png" alt="Mondrian Project">
+          </div>
+          <div class="projects__info content6">
+            <h3 class="projects__info__subtitle">Mondrian</h3>
+            <p class="projects__info__description1">Inspired by ... art. This artwork is recreated using only grid
+              layout. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+              explicabo ad, hic blanditiis impedit
+              alias.</p>
+            <p class="projects__info__description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+              odit mollitia autem cupiditate ab
+              officia voluptates, quasi earum! Id, cupiditate! Voluptas eius sit dolore reprehenderit.</p>
+            <a href="#" class="btn projects__btn">Website</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact container section">
+      <h2 class="contact__title">Get In Contact</h2>
+      <p class="contact__description">Whether you are starting a project, have business inquries or just want to say hi,
+        my inbox is always open so
+        feel free to reach out and I will get back to you as soon as possible.</p>
+      <a href="#" class="contact__btn btn">Reach Out</a>
+    </section>
+
+  </main>
+  <footer class="footer container section">
+    <h3 class="footer__title">~Subarna Sigdel~</h3>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
